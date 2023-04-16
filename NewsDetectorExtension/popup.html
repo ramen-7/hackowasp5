@@ -9,12 +9,20 @@
 </head>
 <body>
     <div>
-        <h3>Enter The Headlines</h3>
-        <label for="fname">Enter The Content</label><br>
+        <h3 style="display: flex;">NEWS DETECTOR</h3>
+        <label for="fname">Enter The News</label><br>
         <input type="text" id="content" placeholder="Content"/><br>
-        <input type="submit" id="btn1" value="Submit"/>
-        <p class="output" id="output1"></p>
-        <p class="output" id="output2"></p>
+        <input type="submit" id="btn1" value="Submit"/><br>
+        <div id="result1" style="display: none;">
+            <div style="padding: 10px auto; margin-top: 10px; font-size: larger;">
+                Written BY 
+            </div><br>
+            <p class="output" id="output1">Loading...</p><br>
+            <div style="padding: 10px auto; margin-top: 10px; font-size: larger;">
+                Result:-
+            </div><br>
+            <p class="output" id="output2">Loading...</p>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>

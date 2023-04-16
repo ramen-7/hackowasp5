@@ -1,6 +1,6 @@
 body{
     width: 400px;
-    height: 300px;
+    height: 150px;
     background-color: aliceblue;
     display: flex;
     justify-content: center;
@@ -9,7 +9,7 @@ body{
 p{
     display: inner-flex;
     margin: auto 10px;
-    font-size: 22px;
+    font-size: 20px;
     color: blueviolet;
     border-radius: 6px;
     border: 1px solid lightblue;
